@@ -56,3 +56,9 @@ locationDiv.children[4].style.fontSize = "3rem";
 locationDiv.children[5].innerText = `pathName = ${location.pathname}`;
 locationDiv.children[5].style.color = "red";
 locationDiv.children[5].style.fontSize = "3rem";
+
+const btn = document.getElementById("btn");
+
+btn.addEventListener("click",()=>{
+    location.assign("https://github.com/mstsurnalyakter");
+})
